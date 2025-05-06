@@ -55,3 +55,15 @@ section .top_sec h2{
 section .top_sec .date{
     width: 250px;
 }
+section .prayer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+    font-size: 26px;
+    color: white;
+    background: #c0583e75;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid #c0583e75;
+}
