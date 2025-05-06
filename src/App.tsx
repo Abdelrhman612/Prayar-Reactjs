@@ -1,24 +1,33 @@
+import Prayer from "./components/Prayer";
+
 function App() {
   return (
-    <section>
-      <div className="container">
-        <div className="top_sec">
-          <div className="city">
-            <h3>المدينه</h3>
+    <>
+      <section>
+        <div className="container">
+          <div className="top_sec">
+            <div className="city">
+              <h3>المدينه</h3>
 
-            <select name="" id="">
-              <option value={20}> القاهره</option>
-              <option value={20}> الجيزه</option>
-            </select>
-          </div>
+              <select name="" id="">
+                <option value={20}> القاهره</option>
+                <option value={20}> الجيزه</option>
+              </select>
+            </div>
 
-          <div className="date">
-            <h3>التاريخ</h3>
-            <h2>5/6/2025</h2>
+            <div className="date">
+              <h3>التاريخ</h3>
+              <h2>5/6/2025</h2>
+            </div>
           </div>
+          <Prayer name="الفجر" time="4:30" />
+          <Prayer name="الظهر" time="12:51" />
+          <Prayer name="العصر" time="4:30" />
+          <Prayer name="المغرب" time="7:30" />
+          <Prayer name="العشاء" time="8:30" />
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
 
